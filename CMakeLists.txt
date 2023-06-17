@@ -13,3 +13,4 @@ FetchContent_MakeAvailable(AcceleraSystemC_Rel_2_3_3)
 
 add_subdirectory(hello_world)
 add_subdirectory(module)
+add_subdirectory(has_process)

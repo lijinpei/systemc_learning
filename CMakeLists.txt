@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.26)
+
+project(systemc_learning)
+
+include(FetchContent)
+FetchContent_Declare(
+	AcceleraSystemC_Rel_2_3_3
+  URL https://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.3.tar.gz
+  URL_HASH MD5=589d313f3477f42d259607e5dbd316b4
+)
+
+FetchContent_MakeAvailable(AcceleraSystemC_Rel_2_3_3)
+
+add_subdirectory(hello_world)

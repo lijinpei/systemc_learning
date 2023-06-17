@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.26)
 
 project(systemc_learning)
 
+set(CMAKE_CXX_STANDARD 17)
+
 include(FetchContent)
 FetchContent_Declare(
 	AcceleraSystemC_Rel_2_3_3
@@ -15,3 +17,4 @@ add_subdirectory(hello_world)
 add_subdirectory(module)
 add_subdirectory(has_process)
 add_subdirectory(simulation_process)
+add_subdirectory(simulation_stage)

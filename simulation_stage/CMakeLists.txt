@@ -1,0 +1,2 @@
+add_executable(simulation_stage simulation_stage.cpp)
+target_link_libraries(simulation_stage SystemC::systemc)

@@ -1,0 +1,2 @@
+add_executable(interrupt_when_busy_template interrupt_when_busy_template.cpp)
+target_link_libraries(interrupt_when_busy_template SystemC::systemc)

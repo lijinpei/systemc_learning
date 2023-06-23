@@ -1,0 +1,2 @@
+add_executable(trigger_when_busy trigger_when_busy.cpp)
+target_link_libraries(trigger_when_busy SystemC::systemc)

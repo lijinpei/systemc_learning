@@ -1,0 +1,3 @@
+add_executable(interrupt_when_busy interrupt_when_busy.cpp)
+target_link_libraries(interrupt_when_busy SystemC::systemc)
+
